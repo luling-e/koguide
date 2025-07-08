@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국관광공사</title>
+    <link rel="stylesheet" href="css/xeicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/m_style.css">
+    <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <header>
+        <div class="bg">
+            <div class="hdwrap fl">
+                <div class="taeguk fl">
+                    <img src="images/header_taeguk_logo_.png" alt="태극기">
+                    <p>이 누리집은 대한민국 공식 전자정부 누리집입니다.</p>
+                </div>
+                <div class="lang_box fl">
+                    <ul class="lang">
+                        <li><a href="#">ENGLISH</a></li>
+                        <li><a href="#">JAPANESE</a></li>
+                        <li><a href="#">CHINESE</a></li>
+                    </ul>
+                    <button class="m_menu_close mobile"><img src="images/btn_header_close_white.png" alt="닫기"></button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="hdwrap fl">
+                <h1><a href="index.html"><img src="images/logo_kto_white.svg" alt="한국관광공사" data-hover="images/logo_kto.svg" data-leave="images/logo_kto_white.svg"></a></h1>
+                <ul class="gnb">
+                    <li>
+                        <a href="#">정보공개</a>
+                        <div class="bg">
+                            <div class="hdwrap">
+                                <h2>정보공개</h2>
+                                <ul class="bigsub">
+                                    <li>
+                                        <a href="#">정보공개 제도</a>
+                                        <ul>
+                                            <li><a href="#">제도안내</a></li>
+                                            <li><a href="#">정보공개 청구</a></li>
+                                            <li><a href="#">비공개 대상 정보</a></li>
+                                            <li><a href="#">불복구제절차</a></li>
+                                            <li><a href="#">수수료</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">정보목록</a></li>
+                                    <li><a href="#">사전정보 목록</a></li>
+                                    <li><a href="#">공공데이터개방</a></li>
+                                    <li><a href="#">사업실명제</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">주요사업</a>
+                        <div class="bg">
+                            <div class="hdwrap">
+                                <h2>주요사업</h2>
+                                <ul class="bigsub">
+                                    <li><a href="#">국제관광지원</a></li>
+                                    <li><a href="#">국민관광지원</a></li>
+                                    <li><a href="#">관광산업지원</a></li>
+                                    <li><a href="#">관광콘텐츠육성</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">알림마당</a>
+                        <div class="bg">
+                            <div class="hdwrap">
+                                <h2>알림마당</h2>
+                                <ul class="bigsub">
+                                    <li><a href="#">KTO 소식</a></li>
+                                    <li>
+                                        <a href="#">공고</a>
+                                        <ul>
+                                            <li><a href="#">공고/공모</a></li>
+                                            <li><a href="#">입찰공고</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">언론보도설명 · 정정</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">국민참여</a>
+                        <div class="bg">
+                            <div class="hdwrap">
+                                <h2>국민참여</h2>
+                                <ul class="bigsub">
+                                    <li><a href="#">자주 묻는 질문</a></li>
+                                    <li><a href="#">똑똑한 문의</a></li>
+                                    <li><a href="#">똑똑한 제안</a></li>
+                                    <li><a href="#">칭찬합시다</a></li>
+                                    <li>
+                                        <a href="#">제보합니다</a>
+                                        <ul>
+                                            <li><a href="#">일반민원</a></li>
+                                            <li><a href="#">위반신고</a></li>
+                                            <li><a href="#">예산낭비신고</a></li>
+                                            <li><a href="#">익명 · 대리신고</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">적극행정</a>
+                                        <ul>
+                                            <li><a href="#">개요</a></li>
+                                            <li><a href="#">국민추천</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">기업성장응답센터</a></li>
+                                    <li><a href="#">관광불편신고</a></li>
+                                    <li><a href="#">관광정보등록</a></li>
+                                    <li>
+                                        <a href="#">시설개방</a>
+                                        <ul>
+                                            <li><a href="#">강의실/기숙사</a></li>
+                                            <li><a href="#">강당</a></li>
+                                            <li><a href="#">체육시설</a></li>
+                                            <li><a href="#">주차장</a></li>
+                                            <li><a href="#">기타</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">KTO 경영</a>
+                        <div class="bg">
+                            <div class="hdwrap">
+                                <h2>KTO 경영</h2>
+                                <ul class="bigsub">
+                                    <li>
+                                        <a href="#">경영공시</a>
+                                        <ul>
+                                            <li><a href="#">기관공시</a></li>
+                                            <li><a href="#">ALIO공시</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">ESG경영</a>
+                                        <ul>
+                                            <li><a href="#">비전 및 전략체계</a></li>
+                                            <li><a href="#">ESG경영지표</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">윤리경영</a>
+                                        <ul>
+                                            <li><a href="#">CEO 윤리메시지</a></li>
+                                            <li><a href="#">소개</a></li>
+                                            <li><a href="#">윤리경영체계</a></li>
+                                            <li><a href="#">주요 추진활동</a></li>
+                                            <li><a href="#">윤리경영(반부패·청렴) 소식</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">인권경영</a>
+                                        <ul>
+                                            <li><a href="#">소개 및 구제절차</a></li>
+                                            <li><a href="#">활동현황</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">안전경영</a>
+                                        <ul>
+                                            <li><a href="#">소개</a></li>
+                                            <li><a href="#">자료실</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">고객만족경영</a>
+                                        <ul>
+                                            <li><a href="#">소개</a></li>
+                                            <li><a href="#">고객서비스 내용</a></li>
+                                            <li><a href="#">이행실적</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">공사소개</a>
+                        <div class="bg">
+                            <div class="hdwrap">
+                                <h2>공사소개</h2>
+                                <ul class="bigsub">
+                                    <li>
+                                        <a href="#">CEO 인사말</a>
+                                        <ul>
+                                            <li><a href="#">역대CEO</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">경영전략</a>
+                                        <ul>
+                                            <li><a href="#">가치전략체계</a></li>
+                                            <li><a href="#">행동원칙</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">연혁</a></li>
+                                    <li>
+                                        <a href="#">CI/BI소개</a>
+                                        <ul>
+                                            <li><a href="#">CI</a></li>
+                                            <li><a href="#">BI/캐릭터</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li>
+                                        <a href="#">오시는길</a>
+                                        <ul>
+                                            <li><a href="#">본사</a></li>
+                                            <li><a href="#">국내지사</a></li>
+                                            <li><a href="#">해외지사</a></li>
+                                            <li><a href="#">기타시설</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">채용정보</a>
+                        <div class="bg">
+                            <div class="hdwrap">
+                                <h2>채용정보</h2>
+                                <ul class="bigsub">
+                                    <li><a href="#">인재상</a></li>
+                                    <li><a href="#">인재육성제도</a></li>
+                                    <li><a href="#">복리후생 제도</a></li>
+                                    <li><a href="#">채용공고</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="hdbtn">
+                    <li><button class="fl search_close"><img src="images/btn_header_close.svg" alt="닫기"></button></li>
+                    <li>
+                        <button class="fl search_btn"><img src="images/btn_header_search_white.svg" alt="검색" data-hover="images/btn_header_search.svg" data-leave="images/btn_header_search_white.svg"></button>
+                        
+                    </li>
+                    <li><a href="#" class="fl m_menu_toggle"><img src="images/btn_header_menuall_white.svg" alt="사이트맵" data-hover="images/btn_header_menuall.svg" data-leave="images/btn_header_menuall_white.svg"></a></li>
+                </ul>
+                <div class="search_box">
+                    <div class="hdwrap">
+                        <form class="fl">
+                            <input type="text" name="search" placeholder="검색어를 입력하세요">
+                            <button><img src="images/btn_header_search.svg" alt="검색하기"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="black"></div>
+
+    <section id="main_visual">
+        <h2 class="blind">메인 비주얼 영역</h2>
+        <div class="frame">
+            <img src="images/main_visual_01.png" alt="메인 비주얼1">
+            <img src="images/main_visual_02.png" alt="메인 비주얼2">
+            <img src="images/main_visual_03.png" alt="메인 비주얼3">
+            <div class="wrap">
+                <h3>여행으로 국민을 행복하게 하고<br class="pc">
+                관광으로 국부를 증진하는 공공기관</h3>
+                <ul class="mv_bmenu">
+                    <li class="select">
+                        <a href="#none">국내여행정보</a>
+                        <div class="selectbox"></div>
+                        <ul class="mv_smenu">
+                            <li>
+                                <a href="#">대한민국<br class="pc">
+                                구석구석</a>
+                                <img src="images/main_tour_service01.png" alt="대한민국 구석구석" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">VISITKOREA</a>
+                                <img src="images/main_tour_service02.png" alt="VISITKOREA" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">두루누비</a>
+                                <img src="images/main_tour_service03.png" alt="두루누비" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">세이프<br class="pc">
+                                스테이</a>
+                                <img src="images/main_tour_service04.png" alt="세이프 스테이" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">열린 관광<br class="pc">
+                                모두의 여행</a>
+                                <img src="images/main_tour_service05.png" alt="열린 관광 모두의 여행" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">오디</a>
+                                <img src="images/main_tour_service06.png" alt="오디" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">고캠핑</a>
+                                <img src="images/main_tour_service07.png" alt="고캠핑" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">하이커<br>
+                                그라운드</a>
+                                <img src="images/main_tour_service08.png" alt="하이커 그라운드" class="pc">
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">관광기업지원</a>
+                        <div class="selectbox"></div>
+                        <ul class="mv_smenu">
+                            <li>
+                                <a href="#">한국관광<br class="pc">
+                                산업포털</a>
+                                <img src="images/main_tour_service09.png" alt="한국관광 산업포털" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">관광기업<br class="pc">
+                                혁신바우처</a>
+                                <img src="images/main_tour_service10.png" alt="관광기업 혁신바우처" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">관광두레</a>
+                                <img src="images/main_tour_service11.png" alt="관광두레" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">K-MICE</a>
+                                <img src="images/main_tour_service12.png" alt="K-MICE" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">근로자<br class="pc">
+                                휴가지원</a>
+                                <img src="images/main_tour_service14.png" alt="근로자 휴가지원" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">관광e배움터</a>
+                                <img src="images/main_tour_service15.png" alt="관광e배움터" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">관광전문인력<br class="pc">
+                                포털</a>
+                                <img src="images/main_tour_service16.png" alt="관광전문인력 포털" class="pc">
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">관광데이터</a>
+                        <div class="selectbox"></div>
+                        <ul class="mv_smenu">
+                            <li>
+                                <a href="#">데이터랩<br class="pc">
+                                산업포털</a>
+                                <img src="images/main_tour_service17.png" alt="데이터랩" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">TourAPI</a>
+                                <img src="images/main_tour_service18.png" alt="TourAPI" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">콘텐츠랩</a>
+                                <img src="images/main_tour_service19.png" alt="콘텐츠랩" class="pc">
+                            </li>
+                            <li>
+                                <a href="#">포토코리아</a>
+                                <img src="images/main_tour_service21.png" alt="포토코리아" class="pc">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="line"></div>
+                <button class="slide_btn pc"><img src="images/btn_slide_control_stop.svg" alt="stop"></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="main_notice">
+        <h2 class="blind">메인 알림마당 영역</h2>
+        <div class="wrap">
+            <h3 class="n_title">알림마당 <span></span></h3>
+            <p class="n_stitle">
+                <span>한국관광공사의</span><br>
+                새로운 소식을<br>
+                만나보세요
+            </p>
+            <ul class="n_list">
+                <li>
+                    <a href="#">
+                        <span>보도자료<img src="images/btn_main_news_more.svg" alt="더보기"></span>
+                        <h3>‘열린관광, 같이가는 가치있는 여행’ 참가자 모집</h3>
+                        <p class="n_text">‘열린관광, 같이가는 가치있는 여행’ 참가자 모집
+                        - 한국관광공사, 관광취약계층 3,200여 명 나눔여행 지원 -</p>
+                        <p class="n_date">2025-05-26</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>보도자료<img src="images/btn_main_news_more.svg" alt="더보기"></span>
+                        <h3>한국관광공사, 퍼티라이깅으로 산불 피해지역 복원 동참</h3>
+                        <p class="n_text">한국관광공사, 퍼티라이깅으로 산불 피해지역 복원 동참 
+                        - SNS 인플루언서 30여 명과 영덕에서 진달래 묘목 심고 거름 주는 트레킹 실시 -</p>
+                        <p class="n_date">2025-05-23</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>보도자료<img src="images/btn_main_news_more.svg" alt="더보기"></span>
+                        <h3>관광으로 내 일을(My Job) 찾자, ‘관광 미니잡페어’ 개최</h3>
+                        <p class="n_text">관광으로 내 일을(My Job) 찾자, ‘관광 미니잡페어’ 개최
+                        - 하나ㆍ모두투어 인스파이어 리조트 등 12개 관광기업 참가 -   </p>
+                        <p class="n_date">2025-05-23</p>
+                    </a>
+                </li>
+                <li class="slideli">
+                    <div class="n_slide">
+                        <a href="#"><img src="images/main_notice_slide1.jpg" alt="당신의 경력이 대한민국의 능력이 됩니다"></a>
+                        <a href="#"><img src="images/main_notice_slide2.png" alt="한국관광공사 공식 유튜브 바로가기"></a> 
+                    </div>
+                </li>
+            </ul>
+            <div class="n_btn_box n_list fl">
+                <button class="n_prev"><img src="images/btn_slide_prev.svg" alt="이전"></button>
+                <p><span class="n_pn">01</span> / 02</p> 
+                <button class="n_toggle"><img src="images/slide_btn_pause.svg" alt="일시정지"></button>
+                <button class="n_next"><img src="images/btn_slide_next.svg" alt="다음"></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="main_business">
+        <h2 class="blind">메인 주요사업 영역</h2>
+        <div class="wrap">
+            <h3 class="b_title">주요사업 <span></span></h3>
+            <p class="b_stitle">
+                국가경제 발전과<br class="mobile"> 국민복지 증진을 위해<br>
+                다양한 사업을 추진합니다
+            </p>
+            <ul class="b_slide">
+                <li class="select">
+                    <img src="images/main_section_business_slide04.jpg" alt="국제관광지원" class="pc">
+                    <strong class="pc">국제관광지원</strong>
+                    <div class="b_textbox b_instant pc">
+                        <h3>국제관광지원</h3>
+                        <p>인바운드 미래성장으로 세계인이 찾는 관광대국 실현을 위해 노력합니다.</p>
+                        <a href="#"><i class="xi-arrow-right"></i></a>
+                    </div>
+                    <a href="#" class="mobile">
+                        <img src="images/main_section_business_slide04.jpg" alt="국제관광지원">
+                        <div class="b_mtextbox">
+                            <h3>국제관광지원</h3>
+                            <p>인바운드 미래성장으로 세계인이 찾는 관광대국 실현을 위해 노력합니다.</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="images/main_section_business_slide03.jpg" alt="국민관광지원" class="pc">
+                    <strong class="pc">국민관광지원</strong>
+                    <div class="b_textbox pc">
+                        <h3>국민관광지원</h3>
+                        <p>국내여행 활성화를 통한 국민의 삶의 질 향상 및 지역경제 발전을 위해 노력합니다.</p>
+                        <a href="#"><i class="xi-arrow-right"></i></a>
+                    </div>
+                    <a href="#" class="mobile">
+                        <img src="images/main_section_business_slide03.jpg" alt="국민관광지원">
+                        <div class="b_mtextbox">
+                            <h3>국민관광지원</h3>
+                            <p>국내여행 활성화를 통한 국민의 삶의 질 향상 및 지역경제 발전을 위해 노력합니다.</p>                            
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="images/main_section_business_slide02.jpg" alt="관광산업지원" class="pc">
+                    <strong class="pc">관광산업지원</strong>
+                    <div class="b_textbox pc">
+                        <h3>관광산업지원</h3>
+                        <p>관광 생태계의 혁신과 성장을 지원함으로써 관광산업의 발전을 위해 노력합니다.</p>
+                        <a href="#"><i class="xi-arrow-right"></i></a>
+                    </div>
+                    <a href="#" class="mobile">
+                        <img src="images/main_section_business_slide02.jpg" alt="관광산업지원">
+                        <div class="b_mtextbox">
+                            <h3>관광산업지원</h3>
+                            <p>관광 생태계의 혁신과 성장을 지원함으로써 관광산업의 발전을 위해 노력합니다.</p>                            
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="images/main_section_business_slide01.jpg" alt="관광콘텐츠육성" class="pc">
+                    <strong class="pc">관광콘텐츠육성</strong>
+                    <div class="b_textbox pc">
+                        <h3>관광콘텐츠육성</h3>
+                        <p>다양하고 매력적인 관광콘텐츠 발굴과 육성을 통한 행복한 한국관광 실현을 위해 노력합니다.</p>
+                        <a href="#"><i class="xi-arrow-right"></i></a>
+                    </div>
+                    <a href="#" class="mobile">
+                        <img src="images/main_section_business_slide01.jpg" alt="관광콘텐츠육성">
+                        <div class="b_mtextbox">
+                            <h3>관광콘텐츠육성</h3>
+                            <p>다양하고 매력적인 관광콘텐츠 발굴과 육성을 통한 행복한 한국관광 실현을 위해 노력합니다.</p>                            
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="main_join">
+        <h2 class="blind">메인 공사참여 영역</h2>
+        <div class="wrap">
+            <h3 class="t_title">공사 참여 <span></span></h3>
+            <p class="t_stitle">
+                국민에게 신뢰받는<br>
+                관광 선도기관
+            </p>
+            <a href="#" class="t_link">조직도/직원검색 <img src="images/slide_btn_next.svg" alt="바로가기"></a>
+            <div class="t_listbox fl">
+                <ul class="t_blist">
+                    <li>
+                        <a href="#" class="fl fld">
+                            <div class="pt1">
+                                <h3>
+                                    윤리·인권 경영<br>
+                                    클린 케이티오<span>(Clean KTO)</span>
+                                </h3>
+                                <p>관광산업의 Total Service Provider로써 한국관광의 새로운 성장을 구현하고 있습니다.</p>
+                            </div>
+                            <div class="pt2">
+                                <span>윤리 경영 <img src="images/slide_btn_next.svg" alt="바로가기"></span>
+                                <span>인권 경영 <img src="images/slide_btn_next.svg" alt="바로가기"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="fl fld">
+                            <div class="pt1">
+                                <h3>
+                                    KTO ESG경영
+                                </h3>
+                                <p>한국관광공사는 ESG경영을 통해 지속가능관광을 구현하겠습니다.</p>
+                            </div>
+                            <div class="pt2">
+                                <span>비전 및 전략체계 <img src="images/slide_btn_next.svg" alt="바로가기"></span>
+                                <span>ESG경영지표 <img src="images/slide_btn_next.svg" alt="바로가기"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="t_slist">
+                    <li>
+                        <a href="#">
+                            <p>똑똑한<br class="pc"> 문의</p>
+                            <img src="images/icon_main_organ_conversation.svg" alt="똑똑한 문의">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>똑똑한<br class="pc"> 제안</p>
+                            <img src="images/icon_main_organ_feather.svg" alt="똑똑한 제안">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>관광불편<br class="pc"> 신고</p>
+                            <img src="images/icon_main_organ_alert.svg" alt="관광불편 신고">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>관광정보<br class="pc"> 등록/수정</p>
+                            <img src="images/icon_main_organ_edit.svg" alt="관광불편 등록/수정">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="t_rsbox">
+            <div class="wrap fl">
+                <p><img src="images/related_site_monitor.svg" alt="관련사이트"> 관련사이트</p>
+                <div class="t_rs">
+                    <ul class="fl">
+                        <li><a href="#">NIS국정원</a></li>
+                        <li><a href="#">알리오플러스</a></li>
+                        <li><a href="#">청렴포털</a></li>
+                        <li><a href="#">안전신문고</a></li>
+                        <li><a href="#">청탁금지법 통합검색</a></li>
+                        <li><a href="#">채용비리 통합신고센터</a></li>
+                        <li><a href="#">정부24</a></li>
+                        <li><a href="#">문화포털</a></li>
+                        <li><a href="#">문화가 있는 날</a></li>
+                        <li><a href="#">중소기업기술마켓</a></li>
+                    </ul>
+                </div>
+                <div class="t_rsbtn">
+                    <button class="t_prev"><img src="images/slide_btn_prev.svg" alt="이전"></button>
+                    <button class="t_toggle"><img src="images/main_related_slide_btn_pause.svg" alt="일시정지"></button>
+                    <button class="t_next"><img src="images/slide_btn_next.svg" alt="다음"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2 class="blind">웹사이트 정보</h2>
+        <div class="wrap">
+            <div class="part1 fl">
+                <img src="images/logo_kto.svg" alt="한국관광공사">
+                <ul>
+                    <li class="select"><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">저작권<br class="mobile"> 보호정책</a></li>
+                    <li><a href="#">영상정보처리기기<br class="mobile"> 운영관리방침</a></li>
+                    <li><a href="#">전자우편<br class="mobile"> 무단수집거부</a></li>
+                </ul>
+            </div>
+            <div class="fs fl fld">
+                <div class="fsbtnbox">
+                    <a href="#" class="fsbtn fl">
+                        <span>Family Site</span>
+                        <img src="images/footer_familyselect.png" alt="Family Site">
+                    </a>
+                </div>
+                <img src="images/footer_logo_03.svg" alt="웹접근성 로고" class="pc">
+            </div>
+            <address>
+                <span>한국관광공사</span> 26464 강원특별자치도 원주시 세계로 10 한국관광공사 | TEL : 033-738-3000 | 통신판매업신고 : 제2022-강원원주-0381호<br>
+                Copyright © 한국관광공사.. All rights reserved.
+            </address>
+            <img src="images/footer_logo_03.svg" alt="웹접근성 로고" class="mobile">
+        </div>
+    </footer>
+
+    <!-- family site 팝업 -->
+    <div class="fs_popbox">
+        <div class="fsp_h3box fl">
+            <h3>Family site 바로가기</h3>
+            <button class="fsp_close"><img src="images/popup_close_btn_navy.svg" alt="팝업창 닫기"></button>
+        </div>
+        <ul>
+            <li>
+                <a href="#" class="fl">
+                    <span>대한민국구석구석</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>VISITKOREA</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>중문골프클럽</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>K-MICE</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>오시아노관광단지</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>청와대사랑채</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>GO Camping</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>관광전문인력포털</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>TourAPI 4.0</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>한국관광 데이터랩</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>세이프스테이</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>포토코리아</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>투어라즈</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>한국관광콘텐츠랩</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>두루누비</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fl">
+                    <span>전자계약시스템</span>
+                    <img src="images/ico_link_external.svg" alt="바로가기">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- top버튼 -->
+    <button class="go_top"><i class="xi-arrow-up"></i></button>
+    <script src="js/index.js"></script>
+</body>
+</html>
